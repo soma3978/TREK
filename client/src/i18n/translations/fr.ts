@@ -1245,6 +1245,7 @@ const fr: Record<string, string> = {
   'files.toast.deleteError': 'Impossible de supprimer le fichier',
   'files.sourcePlan': 'Plan du jour',
   'files.sourceBooking': 'Réservation',
+  'files.sourceTransport': 'Transport',
   'files.attach': 'Joindre',
   'files.pasteHint': 'Vous pouvez aussi coller des images depuis le presse-papiers (Ctrl+V)',
   'files.trash': 'Corbeille',
@@ -1257,6 +1258,7 @@ const fr: Record<string, string> = {
   'files.assignTitle': 'Assigner le fichier',
   'files.assignPlace': 'Lieu',
   'files.assignBooking': 'Réservation',
+  'files.assignTransport': 'Transport',
   'files.unassigned': 'Non attribué',
   'files.unlink': 'Supprimer le lien',
   'files.toast.trashed': 'Déplacé dans la corbeille',
@@ -2344,6 +2346,9 @@ const fr: Record<string, string> = {
   // System notices — personal thank you
   'system_notice.v3_thankyou.title': 'Un mot personnel de ma part',
   'system_notice.v3_thankyou.body': 'Avant de continuer — je veux prendre un instant.\n\nTREK a commencé comme un projet perso que j\'ai construit pour mes propres voyages. Je n\'aurais jamais imaginé qu\'il grandirait au point que 4 000 d\'entre vous lui fassent confiance pour planifier vos aventures. Chaque étoile, chaque issue, chaque demande de fonctionnalité — je les lis toutes, et ce sont elles qui me font tenir pendant les nuits blanches entre un travail à temps plein et l\'université.\n\nJe veux que vous sachiez : TREK sera toujours open source, toujours auto-hébergé, toujours à vous. Pas de tracking, pas d\'abonnements, pas de conditions cachées. Juste un outil construit par quelqu\'un qui aime voyager autant que vous.\n\nUn merci tout particulier à [jubnl](https://github.com/jubnl) — tu es devenu un collaborateur incroyable. Une grande partie de ce qui rend la 3.0 géniale porte ton empreinte. Merci d\'avoir cru en ce projet quand il était encore brut.\n\nEt à chacun d\'entre vous qui a signalé un bug, traduit une chaîne, partagé TREK avec un ami ou simplement l\'a utilisé pour planifier un voyage — **merci**. Vous êtes la raison pour laquelle tout ceci existe.\n\nÀ de nombreuses autres aventures ensemble.\n\n— Maurice\n\n---\n\n[Rejoins la communauté sur Discord](https://discord.gg/7Q6M6jDwzf)\n\nSi TREK rend tes voyages meilleurs, un [petit café](https://ko-fi.com/mauriceboe) aide toujours à garder les lumières allumées.',
+  // System notices — 3.0.14
+  'system_notice.v3014_whitespace_collision.title': "Action requise : conflit de compte utilisateur",
+  'system_notice.v3014_whitespace_collision.body': "La mise à niveau 3.0.14 a détecté un ou plusieurs conflits de nom d'utilisateur ou d'adresse e-mail causés par des espaces en début ou en fin de valeur dans les comptes enregistrés. Les comptes concernés ont été renommés automatiquement. Consultez les journaux du serveur pour les lignes commençant par **[migration] WHITESPACE COLLISION** afin d'identifier les comptes nécessitant une vérification.",
   'transport.addTransport': 'Ajouter un transport',
   'transport.modalTitle.create': 'Ajouter un transport',
   'transport.modalTitle.edit': 'Modifier le transport',
